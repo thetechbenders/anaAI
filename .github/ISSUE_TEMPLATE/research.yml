@@ -1,7 +1,7 @@
 name: Research question
 description: A bounded experiment or technical decision
 title: "[research] "
-labels: []
+labels: ["type:research"]
 body:
   - type: textarea
     id: question

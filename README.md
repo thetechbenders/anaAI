@@ -19,6 +19,8 @@
 
 ---
 
+## Project status
+
 > [!IMPORTANT]
 > **Project status:** concept and repository foundation. There is no trained model, validated fault detector, tested firmware, or shipping hardware yet. The badges above describe intent and status, not test results.
 
@@ -75,12 +77,12 @@ No custom PCB, permanent modification, or printer-firmware dependency is require
 | Milestone | Exit criterion |
 | :-- | :-- |
 | **M0 · Foundation** | Project scope, documentation, issue triage, repeatable evaluation contract |
-| **M1 · Acoustic evidence** | Labeled recordings of normal printing and verified extruder skipping, including background conditions |
-| **M2 · Honest baseline** | Reproducible classical DSP comparator, held-out evaluation protocol |
-| **M3 · Embedded intelligence** | Quantized model runs on target and demonstrates a defensible benefit |
+| **M1 · Acoustic Evidence** | Labeled recordings of normal printing and verified extruder skipping, including background conditions |
+| **M2 · Classical Baseline** | Reproducible classical DSP comparator, held-out evaluation protocol |
+| **M3 · Embedded Intelligence** | Quantized model runs on target and demonstrates a defensible benefit |
 | **M4 · Prototype** | Integrated, alert-only hardware demonstrates bounded, repeatable detection |
 
-Milestone names describe planned work, not completed achievements. See [Issues](../../issues) for the active backlog.
+Milestone names describe planned work, not completed achievements. See [Issues](https://github.com/thetechbenders/anaAI/issues) for the active backlog.
 
 ## What success means
 
@@ -100,11 +102,17 @@ Automatic pause commands, cloud inference, voice assistants, multi-printer fleet
 
 ## Working on anaAI
 
-- Start with the [issue tracker](../../issues) and choose a small measurable slice.
+- Start with the [issue tracker](https://github.com/thetechbenders/anaAI/issues) and choose a small measurable slice.
 - Keep raw acoustic recordings and potentially identifying background speech out of Git history. Use a documented consent and data-retention policy.
 - Prefer reversible hardware setups and explicit operator control.
 - Distinguish simulations, host tests, embedded builds, and actual printer trials.
 - Never claim safety or accuracy from synthetic-only evaluation.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance, [SECURITY.md](SECURITY.md) for sensitive reporting and responsible testing, and [the architecture sketch](docs/ARCHITECTURE.md) for the proposed design.
+
+## License
+
+**License undecided.** No open-source license has been granted. See [LICENSE-DECISION.md](LICENSE-DECISION.md) and [issue #2](https://github.com/thetechbenders/anaAI/issues/2).
 
 The initial project foundation is intentionally lean. Contribution guidance and automation will grow alongside real code rather than manufacturing green badges.
 
