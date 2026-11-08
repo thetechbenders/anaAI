@@ -1,5 +1,7 @@
 <div align="center">
 
+![anaAI acoustic intelligence banner](assets/anaai-banner.svg)
+
 # anaAI
 
 ### Hear the fault before you see the failure.
