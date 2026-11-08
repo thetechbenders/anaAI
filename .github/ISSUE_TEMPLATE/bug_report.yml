@@ -1,0 +1,30 @@
+name: Bug report
+description: Report reproducible unexpected behavior
+title: "[bug] "
+labels: []
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Expected versus observed behavior. Exclude private recordings or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence level
+      options:
+        - Physical hardware observation
+        - Target build
+        - Host tests
+        - Simulation only
+        - Untested hypothesis
+    validations:
+      required: true

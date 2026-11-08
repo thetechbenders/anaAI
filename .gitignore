@@ -1,0 +1,31 @@
+# Local build and model artifacts
+build/
+dist/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.bin
+*.elf
+*.map
+*.tflite
+*.onnx
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.pcm
+*.raw
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+*.zip
+# Local datasets and identifiable recordings
+data/
+datasets/
+recordings/
