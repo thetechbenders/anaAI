@@ -1,5 +1,7 @@
 <div align="center">
 
+![anaAI acoustic intelligence banner](assets/anaai-banner.png)
+
 # anaAI
 
 ### Hear the fault before you see the failure.
@@ -10,12 +12,15 @@
 [![Hardware: ESP32--S3](https://img.shields.io/badge/hardware-ESP32--S3-64748b?style=flat-square)](#hardware-direction)
 [![AI: on device](https://img.shields.io/badge/AI-on--device-00b894?style=flat-square)](#how-it-works)
 [![Release: none](https://img.shields.io/badge/release-not%20yet-64748b?style=flat-square)](#roadmap)
+[![License: AGPL-3.0-only](https://img.shields.io/badge/license-AGPL--3.0--only-00b894?style=flat-square)](LICENSE)
 
 **Listen locally. Detect early. Keep printing.**
 
 </div>
 
 ---
+
+## Project status
 
 > [!IMPORTANT]
 > **Project status:** concept and repository foundation. There is no trained model, validated fault detector, tested firmware, or shipping hardware yet. The badges above describe intent and status, not test results.
@@ -73,12 +78,12 @@ No custom PCB, permanent modification, or printer-firmware dependency is require
 | Milestone | Exit criterion |
 | :-- | :-- |
 | **M0 · Foundation** | Project scope, documentation, issue triage, repeatable evaluation contract |
-| **M1 · Acoustic evidence** | Labeled recordings of normal printing and verified extruder skipping, including background conditions |
-| **M2 · Honest baseline** | Reproducible classical DSP comparator, held-out evaluation protocol |
-| **M3 · Embedded intelligence** | Quantized model runs on target and demonstrates a defensible benefit |
+| **M1 · Acoustic Evidence** | Labeled recordings of normal printing and verified extruder skipping, including background conditions |
+| **M2 · Classical Baseline** | Reproducible classical DSP comparator, held-out evaluation protocol |
+| **M3 · Embedded Intelligence** | Quantized model runs on target and demonstrates a defensible benefit |
 | **M4 · Prototype** | Integrated, alert-only hardware demonstrates bounded, repeatable detection |
 
-Milestone names describe planned work, not completed achievements. See [Issues](../../issues) for the active backlog.
+Milestone names describe planned work, not completed achievements. See [Issues](https://github.com/thetechbenders/anaAI/issues) for the active backlog.
 
 ## What success means
 
@@ -98,11 +103,17 @@ Automatic pause commands, cloud inference, voice assistants, multi-printer fleet
 
 ## Working on anaAI
 
-- Start with the [issue tracker](../../issues) and choose a small measurable slice.
+- Start with the [issue tracker](https://github.com/thetechbenders/anaAI/issues) and choose a small measurable slice.
 - Keep raw acoustic recordings and potentially identifying background speech out of Git history. Use a documented consent and data-retention policy.
 - Prefer reversible hardware setups and explicit operator control.
 - Distinguish simulations, host tests, embedded builds, and actual printer trials.
 - Never claim safety or accuracy from synthetic-only evaluation.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance, [SECURITY.md](SECURITY.md) for sensitive reporting and responsible testing, and [the architecture sketch](docs/ARCHITECTURE.md) for the proposed design.
+
+## License
+
+Repository-authored software and documentation are licensed under the **GNU Affero General Public License v3.0 only (AGPL-3.0-only)**; see [LICENSE](LICENSE). The approved mascot artwork and logos have **separate brand permissions**: noncommercial fan art and sharing are welcome under the [brand-use policy](docs/BRANDING.md), while third-party commercial use requires authorization. See [LICENSE-SCOPE.md](LICENSE-SCOPE.md) for the full scope and limits. Audio recordings, datasets, and third-party materials retain their own terms.
 
 The initial project foundation is intentionally lean. Contribution guidance and automation will grow alongside real code rather than manufacturing green badges.
 

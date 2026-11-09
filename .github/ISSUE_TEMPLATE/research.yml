@@ -1,0 +1,24 @@
+name: Research question
+description: A bounded experiment or technical decision
+title: "[research] "
+labels: ["type:research"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Decision to resolve
+      description: Phrase this as one falsifiable question.
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Smallest credible test
+    validations:
+      required: true
+  - type: textarea
+    id: stopping
+    attributes:
+      label: Stop or go criterion
+    validations:
+      required: true
