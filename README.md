@@ -123,7 +123,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance, [SECURITY.md](
 
 ## License
 
-Software and project documentation are licensed under the **GNU Affero General Public License v3.0 only (AGPL-3.0-only)**. See [LICENSE](LICENSE). This choice does **not** grant a separate license to the project's mascots, logos, illustrations, or future acoustic datasets. See [the license scope note](LICENSE-DECISION.md) and [brand kit](docs/BRANDING.md).
+Repository-authored software and documentation are licensed under the **GNU Affero General Public License v3.0 only (AGPL-3.0-only)**; see [LICENSE](LICENSE). The approved mascot artwork and logos have **separate brand permissions**: noncommercial fan art and sharing are welcome under the [brand-use policy](docs/BRANDING.md), while third-party commercial use requires authorization. See [LICENSE-SCOPE.md](LICENSE-SCOPE.md) for the full scope and limits. Audio recordings, datasets, and third-party materials retain their own terms.
 
 The initial project foundation is intentionally lean. Contribution guidance and automation will grow alongside real code rather than manufacturing green badges.
 
