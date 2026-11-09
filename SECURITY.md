@@ -4,7 +4,7 @@ anaAI is experimental hardware. There is **no validated safety function or relea
 
 ## Reports
 
-For sensitive vulnerabilities, do not open a public issue containing exploitation details or credentials. No dedicated private security contact is configured yet. While this repository is private, open an issue with a non-sensitive summary to ask the maintainers for a secure reporting channel. Do not include vulnerability details, credentials or recordings until that channel is agreed. If GitHub private vulnerability reporting becomes available, prefer it.
+For sensitive vulnerabilities, do not open a public issue containing exploitation details or credentials. No dedicated private security contact is configured yet. If private vulnerability reporting is enabled in the repository Security settings, use it. Otherwise open a public issue **only with a non-sensitive request for a private reporting channel**, without vulnerability details. Do not include vulnerability details, credentials or recordings until that channel is agreed. If GitHub private vulnerability reporting becomes available, prefer it.
 
 ## Privacy
 
