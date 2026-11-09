@@ -25,16 +25,6 @@
 > [!IMPORTANT]
 > **Project status:** concept and repository foundation. There is no trained model, validated fault detector, tested firmware, or shipping hardware yet. The badges above describe intent and status, not test results.
 
-## Meet the mascot
-
-<div align="center">
-  <a href="assets/anaai-avatar.png"><img src="assets/anaai-avatar.png" alt="anaAI neon catgirl avatar" width="280"></a>
-  &nbsp;&nbsp;
-  <a href="assets/anaai-mascot-plaque.png"><img src="assets/anaai-mascot-plaque.png" alt="anaAI mascot with acoustic monitoring visualization and project nameplate" width="280"></a>
-</div>
-
-Approved Baseline 2 artwork is preserved in [the brand kit](docs/BRANDING.md). The source artwork and logo remain subject to their separate branding rights.
-
 ## Why anaAI?
 
 Printers already have sensors for temperatures, position, and sometimes filament presence. But many mechanical failures announce themselves audibly before a conventional sensor notices: an extruder clicking under load, a nozzle scraping across a print, or a fan beginning to rattle.
